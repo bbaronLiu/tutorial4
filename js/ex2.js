@@ -13,31 +13,28 @@ while (x == 0) {
 }
 
 function followingDay(day) {
-    if (['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sun'].includes(day)) {
-        switch (day) {
-            case "sun":
-                day = "mon";
-                break;
-            case "mon":
-                day = "tue";
-                break;
-            case "tue":
-                day = "wed";
-                break;
-            case "wed":
-                day = "thu";
-                break;
-            case "thu":
-                day = "fri";
-                break;
-            case "fri":
-                day = "sat";
-                break;
-            case "sat":
-                day = "sun";
-                break;
-        }
-    
+    switch (day) {
+        case "sun":
+            day = "mon";
+            break;
+        case "mon":
+            day = "tue";
+            break;
+        case "tue":
+            day = "wed";
+            break;
+        case "wed":
+            day = "thu";
+            break;
+        case "thu":
+            day = "fri";
+            break;
+        case "fri":
+            day = "sat";
+            break;
+        case "sat":
+            day = "sun";
+            break;
     }
 }
 
