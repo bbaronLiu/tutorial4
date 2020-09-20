@@ -3,9 +3,31 @@
 */
 console.log("Liu's Output from Tutorial 4 Example 1");
 
-function getInt() {
+function getInta() {
     let input;
-    while (input = prompt("Input number: ")) {
+    while (input = prompt("Input Hour: ")) {
+        if (isNaN(input)) {
+            alert("Invalid input.");
+        } else {
+            return parseInt(input);
+        }
+    }
+}
+
+function getIntb() {
+    let input;
+    while (input = prompt("Input Minute: ")) {
+        if (isNaN(input)) {
+            alert("Invalid input.");
+        } else {
+            return parseInt(input);
+        }
+    }
+}
+
+function getIntc() {
+    let input;
+    while (input = prompt("Input Second: ")) {
         if (isNaN(input)) {
             alert("Invalid input.");
         } else {
@@ -17,7 +39,7 @@ function getInt() {
 function getHour() {
     x = 0;
     while (x == 0) {
-        var hour = getInt();
+        var hour = getInta();
         if (hour >= 0 && hour <=24) {
             return hour;
         }
@@ -27,7 +49,7 @@ function getHour() {
 function getMinute() {
     x = 0;
     while (x == 0) {
-        var min = getInt();
+        var min = getIntb();
         if (min >= 0 && min <=59) {
             return min;
         }
@@ -37,7 +59,7 @@ function getMinute() {
 function getSecond() {
     x = 0;
     while (x == 0) {
-        var sec = getInt();
+        var sec = getIntc();
         if (sec >= 0 && sec <=59) {
             return sec;
         }
