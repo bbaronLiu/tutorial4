@@ -2,33 +2,24 @@
  Example 1 JavaScript code
 */
 console.log("Liu's Output from Tutorial 4 Example 1");
-x = 0;
-y = 0;
-var i = prompt("Enter integer");
-var ia = prompt("Enter second integer");
-function check(){
-    while (x == 0) {
-        if (Number.isInteger(i)) {
-            return i;
-        } else {
-            var i = prompt("Enter an integer please");
-        }
+x = true;
+
+while (x == true) {
+    var i = prompt("enter an integer")
+    if (Number.isInteger(i)) {
+        break;
     }
 }
 
-function checkia() {
-    while (y == 0) {
-        if (Number.isInteger(ia)) {
-            return ia;
-        } else {
-            var ia = prompt("Enter a second integer please");
-        }
+while (x == true) {
+    var ia = prompt("enter an integer")
+    if (Number.isInteger(i)) {
+        break;
     }
 }
 
-
-console.log(check() + checkia());
-console.log(check() - checkia());
-console.log(check() * checkia());
-console.log(check() / checkai());
-console.log(check() % checkia());
+console.log(i + ia);
+console.log(i - ia);
+console.log(i * ia);
+console.log(i / ia);
+console.log(i % ia);
