@@ -5,8 +5,17 @@ console.log("Liu's Output from Tutorial 4 Example 2");
 
 var day = prompt("enter 3 letter abbreviation day of the week e.g. sun/mon");
 
+x = 0;
+while (x = 0) {
+    if (['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sun'].includes(day)) {
+        break;
+    } else {
+        var day = prompt("enter 3 letter abbreviation day of the week e.g. sun/mon");
+    }
+}
+
 function followingDay(day) {
-    while (['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sun'].includes(day)) {
+    if (['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sun'].includes(day)) {
         switch (day) {
             case "sun":
                 day = "mon";
@@ -29,8 +38,6 @@ function followingDay(day) {
             case "sat":
                 day = "sun";
                 break;
-        } else {
-            var day = prompt("please enter a correct date");
         }
     
     }
