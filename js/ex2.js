@@ -15,26 +15,26 @@ while (x == 0) {
 function followingDay(day) {
     switch (day) {
         case "sun":
-            day = "mon";
-            break;
+            return "mon";
+
         case "mon":
-            day = "tue";
-            break;
+            return "tue";
+
         case "tue":
-            day = "wed";
-            break;
+            return "wed";
+
         case "wed":
-            day = "thu";
-            break;
+            return "thu";
+
         case "thu":
-            day = "fri";
-            break;
+            return "fri";
+
         case "fri":
-            day = "sat";
-            break;
+            return "sat";
+
         case "sat":
-            day = "sun";
-            break;
+            return "sun";
+            
     }
 }
 
