@@ -23,4 +23,4 @@ function gradeStanding(units) {
 }
 
 console.log("Hello " + name);
-console.log("Your grade standing is " gradeStanding);
+console.log("Your grade standing is " + gradeStanding);
