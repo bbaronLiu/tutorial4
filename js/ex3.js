@@ -17,7 +17,7 @@ while (x == 0) {
 
 while (y == 0) {
     if (Number.isInteger(ia)) {
-        x = 1;
+        y = 1;
     } else {
         var ia = prompt("Enter a second integer please");
     }
