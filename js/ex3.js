@@ -8,7 +8,7 @@ var i = prompt("Enter integer");
 var ia = prompt("Enter second integer");
 function check(){
     while (x == 0) {
-        if (Number.isInteger(i) == "true") {
+        if (Number.isInteger(i)) {
             return i;
         } else {
             var i = prompt("Enter an integer please");
