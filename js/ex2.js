@@ -4,7 +4,7 @@
 console.log("Liu's Output from Tutorial 4 Example 2");
 
 x = 0;
-while (x = 0) {
+while (x == 0) {
     if (['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sun'].includes(day)) {
         break;
     } else {
