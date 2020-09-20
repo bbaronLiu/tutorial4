@@ -70,7 +70,7 @@ function oneSecondLater() {
     var hour = getHour();
     var minute = getMinute();
     var second = getSecond();
-    console.log(hour + "h" + minute + "m" + second + "s");
+    console.log("Time input: " + hour + "h" + minute + "m" + second + "s");
     if (second == 59) {
         if (minute == 59) {
             if (hour == 23) {
