@@ -5,7 +5,7 @@ console.log("Liu's Output from Tutorial 4 Example 2");
 
 var day = prompt("enter 3 letter abbreviation day of the week e.g. sun/mon");
 
-function followingDay(function repeat()) {
+function followingDay(day) {
     while (['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sun'].includes(day)) {
         switch (day) {
             case "sun":
