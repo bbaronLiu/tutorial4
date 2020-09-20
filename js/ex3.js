@@ -9,7 +9,7 @@ var ia = prompt("Enter second integer");
 
 while (x == 0) {
     if (Number.isInteger(i)) {
-        x = 1;
+        break;
     } else {
         var i = prompt("Enter an integer please");
     }
@@ -17,7 +17,7 @@ while (x == 0) {
 
 while (y == 0) {
     if (Number.isInteger(ia)) {
-        y = 1;
+        break;
     } else {
         var ia = prompt("Enter a second integer please");
     }
