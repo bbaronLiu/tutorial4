@@ -96,4 +96,4 @@ function oneSecondLater() {
     } 
 }
 
-console.log("Time input: " + oneSecondLater())
+console.log("One Second Later: " + oneSecondLater())
