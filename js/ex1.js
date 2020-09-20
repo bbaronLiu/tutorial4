@@ -12,14 +12,15 @@ while (units <0 ) {
 
 function gradeStanding(units) {
     if (units <= 30) {
-        return "Freshman"
+        return "Freshman";
     } else if (units <= 60) {
-        return "Sophomore"
+        return "Sophomore";
     } else if (units <= 90) {
-        return "Junior"
+        return "Junior";
     } else {
-        return "Senior"
+        return "Senior";
     }
 }
 
-print ()
+console.log("Hello " + name);
+console.log("Your grade standing is " gradeStanding);
